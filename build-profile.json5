@@ -1,0 +1,60 @@
+{
+  "app": {
+    "signingConfigs": [
+      {
+        "name": "default",
+        "type": "HarmonyOS",
+        "material": {
+          "storeFile": "/Users/lijincheng/代码/DevEcoStudioProjects/publicKeys/new/ljc_app.p12",
+          "storePassword": "00000020F20F0B3779E2BA74D63E8C7758AF959483630D6725A59693600980895F6B7C8161B2E6E140949002A4C16CBB",
+          "keyAlias": "ljc",
+          "keyPassword": "000000209DFA5995FD5434F2DCCA891653280DCA9ECF2DB1F3FC5D633F7F9C2E77D55D2E1770E95F7F1AEB2E208E3508",
+          "signAlg": "SHA256withECDSA",
+          "profile": "/Users/lijincheng/代码/DevEcoStudioProjects/publicKeys/new/jackcomponetlibaryRelease.p7b",
+          "certpath": "/Users/lijincheng/代码/DevEcoStudioProjects/publicKeys/new/ljc_app_release.cer"
+        }
+      }
+    ],
+    "products": [
+      {
+        "name": "default",
+        "signingConfig": "default",
+        "targetSdkVersion": "6.0.0(20)",
+        "compatibleSdkVersion": "6.0.0(20)",
+        "runtimeOS": "HarmonyOS",
+        "buildOption": {
+          "strictMode": {
+            "caseSensitiveCheck": true,
+            "useNormalizedOHMUrl": true
+          }
+        }
+      }
+    ],
+    "buildModeSet": [
+      {
+        "name": "debug",
+      },
+      {
+        "name": "release"
+      }
+    ]
+  },
+  "modules": [
+    {
+      "name": "entry",
+      "srcPath": "./entry",
+      "targets": [
+        {
+          "name": "default",
+          "applyToProducts": [
+            "default"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "JackBasicComponents",
+      "srcPath": "./JackBasicComponents"
+    }
+  ]
+}

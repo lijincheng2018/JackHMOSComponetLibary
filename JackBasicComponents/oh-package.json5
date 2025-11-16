@@ -1,0 +1,19 @@
+{
+  "name": "jackbasiccomponetlib",
+  "version": "1.0.0",
+  "description": "基于 ArkTS 的 HarmonyOS 基础 UI 组件库，提供 Slider 滑块、CapsuleButton 胶囊按钮、DatePicker 日期选择器等常用组件，支持高度自定义样式和丰富的交互功能。",
+  "main": "Index.ets",
+  "author": "Li Jincheng",
+  "license": "MIT",
+  "keywords": [
+    "harmonyos",
+    "arkts",
+    "ui-components",
+    "slider",
+    "button",
+    "datepicker",
+    "component-library"
+  ],
+  "repository": "",
+  "dependencies": {}
+}
