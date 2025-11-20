@@ -22,7 +22,7 @@
 ### 使用 OHPM 安装（推荐）
 
 ```bash
-ohpm install @ohos/jackbasiccomponetlib
+ohpm install @jack_dev/basiccomponetlib
 ```
 
 ### 本地安装
@@ -33,7 +33,7 @@ ohpm install @ohos/jackbasiccomponetlib
 ```json5
 {
   "dependencies": {
-    "@ohos/jackbasiccomponetlib": "file:./JackBasicComponents"
+    "@jack_dev/basiccomponetlib": "file:./JackBasicComponents"
   }
 }
 ```
@@ -50,7 +50,7 @@ import {
   JackButtonType,
   JackButtonSize,
   JackDatePickerType
-} from '@ohos/jackbasiccomponetlib';
+} from '@jack_dev/basiccomponetlib';
 ```
 
 ### 2. 使用组件
